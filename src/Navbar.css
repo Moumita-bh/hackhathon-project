@@ -1,0 +1,351 @@
+/* Navbar Container */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Satoshi", sans-serif; /* Custom font */
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 37.4px;
+  letter-spacing: -0.04em; /* -4% */
+  color: #000000; /* Black text */
+  padding: 10px 20px;
+  margin-left: 40px;
+  margin-right: 5px;
+  
+}  
+  /* Dark Mode */
+  .dark-mode {
+    background-color: #333;
+    color: white;
+  }
+  
+  /* Logo */
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /* Search Box */
+  
+.search-box {
+    display: flex;
+    align-items: center;
+    width: 363px;
+    height: 30px;
+    background: rgba(221, 221, 221, 0.5); /* #DDDDDD80 */
+    border-radius: 26px; /* Rounded edges */
+    padding: 10px 15px;
+    gap: 10px;
+    margin-left: -120px;
+  }
+  
+  /* Search Input */
+  .search-box input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Search Icon */
+  .search-icon {
+    color: #333;
+    font-size: 18px;
+  }
+  
+  
+  /* Nav Icons */
+  /* Navbar Icons Container */
+.nav-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 455px;
+    gap: 30px; /* Space between icons */
+  }
+  
+  /* Individual Nav Icon */
+  .nav-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 17px;
+    border-radius: 2px;
+    margin-left: 11.5px;
+  }
+  
+  /* Nav Item Text */
+  .nav-item {
+    width: 36px;
+    height: 17px;
+    font-family: "Satoshi", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16.9px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #333; /* Adjust as needed */
+  }
+  
+  
+  /* Dark Mode Toggle */
+  .toggle-container {
+    width: 80px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 20px 4px 6px;
+    border-radius: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-left: -80px;
+  }
+  
+  /* Ellipse */
+  .toggle-ellipse {
+    width: 40px;
+    height: 40px;
+    background: rgba(183, 188, 194, 0.5);
+    border-radius: 50%;
+  }
+  
+  /* Bars */
+  .toggle-bars {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  
+  .bar {
+    width: 12px;
+    height: 2px;
+    background: black;
+    border-radius: 2px;
+  }
+
+  /* ✅ Styles for Gray Rectangle */
+
+  .content-container {
+    display: flex;
+    align-items: flex-start; /* Aligns both at the top */
+  }
+
+  .sidebar {
+    width: 80px; /* Adjust sidebar width */
+    height: 100vh; /* Full height */
+    background: #f4f4f4; /* Light gray */
+  }
+
+  .gray-rectangle {
+    width: 1430px;
+    height: 358px;
+    background: #D9D9D9;
+    margin-left: 0px; /* Moves it to the right */
+    margin-top: 0px; /* No extra space above */
+    position: relative;
+  }
+
+  /* ✅ Profile Box */
+.profile-box {
+    width: 279px;
+    height: 421px;
+    border-radius: 24.43px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 150px;
+    margin-left: 50px;
+  }
+  
+  /* ✅ Profile Circle */
+  .profile-circle {
+    width: 128px;
+    height: 126px;
+    border-radius: 50%;
+    border: 1px solid #DFE1E6;
+    background: #f4f4f4;
+    position: relative;
+  }
+  
+  /* ✅ Edit Pencil Circle */
+  .edit-circle {
+    width: 51px;
+    height: 44px;
+    border-radius: 54px;
+    border: 1px solid #DFE1E6;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: translate(30%, 30%);
+  }
+  
+  /* ✅ Pencil Icon */
+  .edit-icon {
+    width: 18px;
+    height: 18px;
+    color: #3A3E44;
+  }
+  
+  /* ✅ Profile Name */
+  .profile-name {
+    font-family: "Satoshi", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #000000;
+    margin-top: 10px;
+  }
+  
+  /* ✅ Profile Details */
+  .profile-detail {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-top: 20px;
+    margin-left: 80px;
+  }
+  
+  /* ✅ Detail Item (Row for Profile, Education, Work Experience) */
+  .detail-item {
+    display: flex;
+    align-items: left;
+    gap: 10px;
+    margin-bottom: 12px;
+  }
+  
+  /* ✅ Small Rectangle */
+  .detail-icon {
+    width: 19px;
+    height: 18px;
+    border-radius: 5px;
+    background: #D9D9D966;
+  }
+  
+  /* ✅ Text (Profile, Education, Work Experience) */
+  .detail-item span {
+    font-family: "Satoshi", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+  }
+
+  /* ✅ Personal Info Box */
+.personal-info-box {
+    width: 952px;
+    height: 200%;
+    background: #ffffff;
+    position: relative;
+    margin-left: 400px; /* Adjust for spacing */
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+    flex-grow: 1; /* Take remaining space */
+    margin-top: -460px;
+  }
+  
+  /* ✅ Heading */
+  .personal-info-heading {
+    font-family: "Satoshi", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    margin-bottom: 20px;
+    text-align: left;
+    margin-left: 50px;
+  }
+  
+  /* ✅ Edit Button */
+  .edit-button {
+    width: 84px;
+    height: 44px;
+    border-radius: 30px;
+    border: 1px solid #DFE1E6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    background: white;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+  }
+  
+  /* ✅ Edit Text */
+  .edit-text {
+    font-family: "Satoshi", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #3B4350;
+  }
+  
+  .info-section {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+  }
+  
+  .info-row {
+    display: flex;
+    justify-content: space-between; /* Align label & value in a single line */
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid #ddd; /* Light gray separator */
+  }
+  
+  .label {
+    font-size: 12px;
+    font-weight: 600;
+    color: #888; /* Light gray */
+    text-transform: uppercase;
+    flex: 1; /* Ensures equal spacing */
+    
+    margin-top: 20px;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-left: 50px;
+  }
+  
+  .value {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000; /* Black */
+    flex: 2; /* Takes more space for text alignment */
+    text-align: left;
+    white-space: nowrap; /* Prevents wrapping */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+    align-items: flex-start;
+    text-align: left; 
+    margin-top: 15px;
+    
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-left: -500px;
+  }
+
+  

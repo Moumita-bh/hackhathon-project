@@ -1,0 +1,21 @@
+/* Sidebar */
+.sidebar {
+    width: 81px;
+    height: 100vh; /* Full height */
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    gap: 35px;
+  }
+  
+  /* Sidebar Small Squares */
+  .sidebar-square {
+    width: 28px;
+    height: 28px;
+    border-radius: 7px;
+    background: rgba(215, 215, 215, 0.5);
+    
+  }
+  
